@@ -25,6 +25,10 @@ To install this theme, simply use the omarchy-theme-install command:
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 ```
 
+## Vesktop (Discord) Settings - Recommended!
+<img width="2546" height="1391" alt="screenshot-2025-12-17_22-18-38" src="https://github.com/user-attachments/assets/0c51dd98-3dc0-4e0c-942d-3ff3f9dfccff" />
+
+
 ## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..
 - all yes! - thanks [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main) for his hook script!
 - VSCode: click on manage (left down corner) > Themes > Color Theme > search for Omarchy

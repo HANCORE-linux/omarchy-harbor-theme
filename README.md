@@ -9,7 +9,8 @@ Harbor is a calm, paper-light color scheme with cool ink accents, designed to re
 
 
 # Backgrounds
-![a_close-up_of_a_door](https://github.com/user-attachments/assets/9d47b0b4-54a0-410f-9ce8-d3885de2eebf)
+<img width="3840" height="2160" alt="59d76fe08af5c4cda209139dd4879441" src="https://github.com/user-attachments/assets/9ac960cf-d7c3-4b99-90a6-3f9ae3148313" />
+
 
 
 

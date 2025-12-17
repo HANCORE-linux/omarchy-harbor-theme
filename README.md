@@ -28,7 +28,7 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 - VSCode: click on manage (left down corner) > Themes > Color Theme > search for Omarchy
 
 ## Waybar-Theme
-- in Screenshot im using Waybar config V6.e - check my Waybar-Themes [Link](https://github.com/HANCORE-linux/waybar-themes)
+- in Screenshot im using Waybar config V1.5 - check my Waybar-Themes [Link](https://github.com/HANCORE-linux/waybar-themes)
 
 ## Acknowledgments
 - This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo). <br>

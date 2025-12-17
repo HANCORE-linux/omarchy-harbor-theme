@@ -26,7 +26,7 @@ To install this theme, simply use the omarchy-theme-install command:
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 ```
 
-## Vesktop (Discord) Settings - Recommended!
+## Vesktop (Discord) Settings - Recommended for "light" Themes!!!
 - first: make sure you are using Theme-hook-script of [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main)
 - than make sure the right Theme of hook-script is turned on
 - <img width="423" height="135" alt="screenshot-2025-12-17_22-26-08" src="https://github.com/user-attachments/assets/84a8f5ce-a084-48dc-80b5-89d87f38e644" />

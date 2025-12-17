@@ -40,13 +40,13 @@ theme[cpu_mid]="#5e81ac"
 theme[cpu_end]="#5f745d"
 
 
-theme[free_start]="#5e81ac"
-theme[free_mid]="#d08770"
+theme[free_start]="#4a8c99"
+theme[free_mid]="#5e81ac"
 theme[free_end]="#d08770"
 
 
-theme[cached_start]="#d08770"
-theme[cached_mid]="#d08770"
+theme[cached_start]="#4a8c99"
+theme[cached_mid]="#5e81ac"
 theme[cached_end]="#d08770"
 
 

@@ -20,7 +20,7 @@ Harbor is a calm, paper-light color scheme with cool ink accents, designed to re
 To install this theme, simply use the omarchy-theme-install command:
 
 ```bash
-omarchy-theme-install https://github.com/HANCORE-linux/omarchy-velvetnight-theme.git
+omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 ```
 
 ## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..

@@ -26,7 +26,11 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 ```
 
 ## Vesktop (Discord) Settings - Recommended!
-<img width="2546" height="1391" alt="screenshot-2025-12-17_22-18-38" src="https://github.com/user-attachments/assets/0c51dd98-3dc0-4e0c-942d-3ff3f9dfccff" />
+- first: make sure you are using Theme-hook-script of [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main)
+- than make sure the right Theme of hook-script is turned on
+- <img width="423" height="135" alt="screenshot-2025-12-17_22-26-08" src="https://github.com/user-attachments/assets/84a8f5ce-a084-48dc-80b5-89d87f38e644" />
+- than check settings :
+- <img width="546" height="391" alt="screenshot-2025-12-17_22-18-38" src="https://github.com/user-attachments/assets/0c51dd98-3dc0-4e0c-942d-3ff3f9dfccff" />
 
 
 ## Vesktop (Discord) , Superfile,  VSCode, ZED, Spotify , GTK Support etc..
@@ -38,7 +42,7 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-theme.git
 
 ## Acknowledgments
 - This theme was created using [Aether](https://github.com/bjarneo/aether) by [@bjarneo](https://github.com/bjarneo). <br>
-- Credits to [Miqim](https://tahfizhabib.github.io/) for his nice stylish walker setups 
+- Credits to [Bypass](https://github.com/imbypass) for his nice stylish walker setups 
 
 ### License
 MIT

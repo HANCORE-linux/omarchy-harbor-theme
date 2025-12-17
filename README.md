@@ -1,5 +1,5 @@
-# Velvet Night
-Velvet Night is a mystical dark theme inspired by the quiet depth of the night. Rich, shadowy backgrounds blend seamlessly with subtle, glowing accents, evoking an atmosphere of calm, mystery, and elegance. Designed to reduce visual strain, it creates an immersive nocturnal environment that encourages focus, creativity, and deep concentration.
+# Harbor
+Harbor is a calm, paper-light color scheme with cool ink accents, designed to reduce eye strain and keep code readable. Its warm background and carefully balanced accent colors create a serene, focused environment for long coding sessions.
 # Screenshots
 <img width="2560" height="1440" alt="screenshot-2025-12-14_23-25-15" src="https://github.com/user-attachments/assets/da888af7-68e0-4366-9556-713dbc0e6dc9" />
 <img width="2560" height="1440" alt="screenshot-2025-12-14_23-28-48" src="https://github.com/user-attachments/assets/a76b9296-7229-402c-a6b4-9041f9021b98" />

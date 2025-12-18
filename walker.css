@@ -1,7 +1,7 @@
 @define-color selected-text #384f54;
 @define-color text #6b8c4f;
 @define-color base #dfe4c4;
-@define-color border #5f745d;
+@define-color border #1c2d28;
 @define-color foreground #6b8c4f;
 @define-color background #dfe4c4;
 
@@ -20,7 +20,7 @@
 /* Selected Item Styling */
 child:selected {
     border-radius: 6px;
-    background-color: mix(#5f745d, @background, 0.875);
+    background-color: mix(#1c2d28, @background, 0.875);
     transition: all 0.15s ease-out;
     transition: background-color 0s ease-out;
     box-shadow:

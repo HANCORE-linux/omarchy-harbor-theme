@@ -5,18 +5,6 @@ Harbor is a calm, paper-light color scheme with cool ink accents, inspired by No
 <img width="2560" height="1440" alt="screenshot-2025-12-18_11-17-12" src="https://github.com/user-attachments/assets/22809c2d-67c2-4a63-ab65-cc215b5b462d" />
 <img width="2560" height="1440" alt="screenshot-2025-12-17_23-02-41" src="https://github.com/user-attachments/assets/40a2344d-b841-4137-8547-bf11a16184dd" />
 
-
-
-
-
-
-# Backgrounds
-<img width="3840" height="2160" alt="59d76fe08af5c4cda209139dd4879441" src="https://github.com/user-attachments/assets/9ac960cf-d7c3-4b99-90a6-3f9ae3148313" />
-
-
-
-
-
 # Installation Theme
 
 To install this theme, simply use the omarchy-theme-install command:

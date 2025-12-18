@@ -2,9 +2,7 @@
 Harbor is a calm, paper-light color scheme with cool ink accents, inspired by Nordic tones, designed to reduce eye strain and keep code readable. Its warm background and carefully balanced accent colors create a serene, focused environment for long coding sessions.
 # Screenshots
 
-<img width="2560" height="1440" alt="screenshot-2025-12-17_21-25-41" src="https://github.com/user-attachments/assets/026e4b8c-cad0-47e4-b844-6cd8693c274e" />
-<img width="2560" height="1440" alt="preview" src="https://github.com/user-attachments/assets/ad540a1b-61cf-482d-8c3d-33d5a7cf6060" />
-<img width="2560" height="1440" alt="screenshot-2025-12-17_21-19-30" src="https://github.com/user-attachments/assets/b8f3665a-6f0a-428f-9587-6ffcd0c7b276" />
+<img width="2560" height="1440" alt="screenshot-2025-12-18_11-17-12" src="https://github.com/user-attachments/assets/22809c2d-67c2-4a63-ab65-cc215b5b462d" />
 <img width="2560" height="1440" alt="screenshot-2025-12-17_23-02-41" src="https://github.com/user-attachments/assets/40a2344d-b841-4137-8547-bf11a16184dd" />
 
 

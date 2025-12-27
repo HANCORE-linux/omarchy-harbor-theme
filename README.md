@@ -1,5 +1,7 @@
 # Harbor
 Harbor is a calm, paper-light color scheme with cool ink accents, inspired by Nordic tones, designed to reduce eye strain and keep code readable. Its warm background and carefully balanced accent colors create a serene, focused environment for long coding sessions.
+
+See also [Dark version](https://github.com/HANCORE-linux/omarchy-harbordark-theme) 
 # Screenshots
 
 <img width="2560" height="1440" alt="screenshot-2025-12-18_11-17-12" src="https://github.com/user-attachments/assets/22809c2d-67c2-4a63-ab65-cc215b5b462d" />

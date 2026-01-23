@@ -42,7 +42,7 @@ window .box-wrapper {
 
 window .search-container {
     border: 2px solid alpha(@border2, 0.4);    /* visible border */
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 6px 6px;
     margin: 0x;
     background: alpha(@border, 0.45);            /* slightly transparent */

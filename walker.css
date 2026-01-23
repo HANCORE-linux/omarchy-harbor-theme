@@ -1,43 +1,95 @@
 @define-color selected-text #384f54;
-@define-color text #6b8c4f;
+@define-color text #5f745d;
 @define-color base #dfe4c4;
 @define-color border #5f745d;
+@define-color border2 #253631;
 @define-color foreground #6b8c4f;
 @define-color background #dfe4c4;
 
-/* Rounded Corners */
-.box-wrapper {
+window * {
+    all: unset;
+    
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 18px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: alpha(@base, 1);           /* dark transparency */
+    border: 2px solid alpha(@border2, 0.65);    /* visible border */
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 0 2px 12px alpha(black, 0.25);
+    backdrop-filter: blur(1px);
+    line-height: 10%;
+    color: @text;
+}
+
+window .search-container {
+    border: 2px solid alpha(@border2, 0.4);    /* visible border */
+    border-radius: 3px;
+    padding: 6px 6px;
+    margin: 0x;
+    background: alpha(@border, 0.45);            /* slightly transparent */
+        box-shadow:
+        0 0 3px rgba(95, 129, 112, 0.4),
+        0 0 3px rgba(95, 129, 112, 0.4);
+    backdrop-filter: blur(1px);
+    line-height: 1em;
+    color: @selected-text;
+}
+
+
+window .input {
+    background: transparent;
+    color: @selected-text;
+}
+
+window .preview {
+    border: 0px solid alpha(@border, 0.65);
     border-radius: 4px;
+    background: alpha(@base, 0.5);
+    color: @text;
+    padding: 10px 10px 10px;
+    margin: 10px 0px 10px;
+    box-shadow: inset 0 0 8px alpha(white, 0);
+    backdrop-filter: blur(8px);
+    line-height: 1em;
 }
 
-/* Drop Shadow */
-.box-wrapper {
-    box-shadow:
-        0 0 5px rgba(95, 129, 112, 0.5),
-        0 0 5px rgba(95, 129, 112, 0.5);
-}
-
-/* Selected Item Styling */
 child:selected {
-    border-radius: 6px;
-    background-color: mix(#5f745d, @background, 0.875);
+    border: 2px solid alpha(@border2, 0.4);
+    border-radius: 4px;
+    background-color: mix(#5f745d, @background, 0.85);
     transition: all 0.15s ease-out;
     transition: background-color 0s ease-out;
     box-shadow:
-        0 0 3px rgba(95, 129, 112, 0.2),
-        0 0 3px rgba(95, 129, 112, 0.2);
+        0 0 3px rgba(95, 129, 112, 0.4),
+        0 0 3px rgba(95, 129, 112, 0.4);
 }
 child:selected .item-box {
-    transition: all 0.05s ease-out;
-    margin-left: 4px;
+    
+    margin-left: 0px;
+    margin-top: 3px;
+    
 }
 
 /* Revert Selected Item Color */
 child:selected .item-box * {
-    color: @text;
-}
-
-/* Transparent Search Bar */
-.search-container {
-    background-color: transparent;
+    color: @selected-text;
 }

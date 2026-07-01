@@ -46,6 +46,33 @@ return {
                 -- If it's "too dark", use a lighter grey like #2a2a2a
                 hl.CursorLine = { bg = "#ecebbd" } 
                 hl.CursorLineNr = { fg = c.orange, bold = true }
+                -- clean, solid word-occurrence + selection highlights (no muddy computed bg)
+                hl.Visual = { bg = "#c8d4a8" }
+                hl.LspReferenceText  = { bg = "#d3d9b0" }
+                hl.LspReferenceRead  = { bg = "#d3d9b0" }
+                hl.LspReferenceWrite = { bg = "#d3d9b0" }
+                hl.IlluminatedWordText  = { bg = "#d3d9b0" }
+                hl.IlluminatedWordRead  = { bg = "#d3d9b0" }
+                hl.IlluminatedWordWrite = { bg = "#d3d9b0" }
+                hl.MatchParen = { bg = "#c8d4a8", bold = true }
+                -- brackets/parens/braces: lift from aether's muted tone to a saturated warm tone
+                hl["@punctuation.bracket"] = { fg = "#8f5424" }
+                hl["@punctuation.special"] = { fg = "#8f5424" }
+                -- keywords: aether renders these lilac internally -> force to palette.
+                -- general keywords -> blue; exceptions (try/except/raise) -> purple slot
+                local kw_blue = { fg = "#386593" }
+                for _, g in ipairs({
+                  "Keyword", "Conditional", "Repeat", "Statement", "Include", "StorageClass",
+                  "@keyword", "@keyword.function", "@keyword.operator", "@keyword.return",
+                  "@keyword.conditional", "@keyword.repeat", "@keyword.import",
+                  "@keyword.coroutine", "@conditional", "@repeat", "@include",
+                }) do
+                  hl[g] = kw_blue
+                end
+                local kw_exc = { fg = "#5a4a7a" }
+                for _, g in ipairs({ "Exception", "@keyword.exception", "@exception" }) do
+                  hl[g] = kw_exc
+                end
             end,
     },
     config = function(_, opts)

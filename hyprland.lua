@@ -26,7 +26,7 @@ hl.config({
     },
   },
   decoration = {
-    rounding = 2,
+    rounding = 3,
     rounding_power = 3,
     shadow = {
       enabled = true,

@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for Harbor.
+# The light maritime palette carries the existing Waybar, Walker, Mako,
+# SwayOSD, and Hyprlock roles into the Quattro shell.
+
+[bar]
+background = "#DFE4C4"
+background-alpha = 1.0
+text = "#1C2D28"
+active = "#B14752"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "#253631"
+active-border-foreground = "#253631"
+
+[controls]
+normal-color = "#1C2D28"
+normal-fill-alpha = 0.04
+normal-border-width = 1
+normal-border-alpha = 0.36
+
+hover-cursor-color = "#5E81AC"
+hover-cursor-fill-alpha = 0.12
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.52
+
+focus-color = "#8A5B81"
+focus-fill-alpha = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.74
+
+selected-color = "#556753"
+selected-fill-alpha = 0.20
+selected-border-width = 1
+selected-border-alpha = 0.58
+
+pressed-color = "#DC8164"
+pressed-fill-alpha = 0.24
+selection-color = "#5E81AC"
+selection-fill-alpha = 0.30
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#DFE4C4"
+background-alpha = 1.0
+text = "#5E81AC"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+
+[tooltip]
+background = "#DFE4C4"
+background-alpha = 0.98
+text = "#1C2D28"
+border = "#7D8794"
+border-alpha = 1.0
+border-width = 1
+
+[notifications]
+background = "#DFE4C4"
+background-alpha = 1.0
+text = "#253631"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+countdown = "#5E81AC"
+
+[launcher]
+background = "#DFE4C4"
+background-alpha = 0.98
+text = "#1C2D28"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#DFE4C4"
+scrim-alpha = 0.0
+selected-background = "#556753"
+selected-background-alpha = 0.15
+selected-text = "#384F54"
+selected-border = "#253631"
+selected-border-alpha = 0.40
+selected-border-width = 2
+
+[menu]
+background = "#DFE4C4"
+background-alpha = 0.98
+text = "#1C2D28"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#DFE4C4"
+scrim-alpha = 0.0
+selected-background = "#556753"
+selected-background-alpha = 0.15
+selected-text = "#384F54"
+selected-border = "#253631"
+selected-border-alpha = 0.40
+selected-border-width = 2
+
+[polkit]
+background = "#DFE4C4"
+background-alpha = 1.0
+text = "#253631"
+text-error = "#B14752"
+border = "hyprland.active-border"
+border-error = "#B14752"
+border-alpha = 1.0
+border-width = 2
+scrim = "#1C2D28"
+scrim-alpha = 0.42
+accent = "#3D727D"
+
+[lock]
+background = "#DFE4C4"
+background-alpha = 0.86
+text = "#253631"
+placeholder = "#1C2D28B3"
+text-error = "#B14752"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#B14752"
+border-alpha = 1.0
+border-width = 2
+selection = "#5E81AC"
+selection-alpha = 0.40
+
+[image-picker]
+scrim = "#DFE4C4"
+scrim-alpha = 0.38
+text = "#1C2D28"
+selected-border = "#5E81AC"
+selected-border-alpha = 1.0
+unselected-border = "#253631"
+unselected-border-alpha = 0.34
